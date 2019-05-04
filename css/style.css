@@ -1,0 +1,65 @@
+body{
+  background_color:#efefef;
+}
+.card{
+  width:10%;
+  height:60px;
+  background:#ef454a;
+  margin:20px 5px 0;
+  cursor:pointer;
+  box-shadow: 0 10px 0 #d1483e;
+  float:left;
+  color:#ef454a;
+  /*color:#fff;*/
+  transition:0.5s;
+}
+.counter{
+  width:100%;
+  height:100px;
+  background:#0000FF;
+  margin:20px 5px 0;
+  cursor:pointer;
+  float:right;
+  color:#fff;
+  font-size:30px;
+  font-weight:bold;
+  text-align: center;
+}
+.card.clicked
+{
+  color:#fff;
+  line-height:60px;
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+  transition:0.5s;
+  background:#00FF00;
+  box-shadow: 0 10px 0 #00FF00;
+}
+.card.click_changed{
+  width:10%;
+  height:60px;
+  background:#ef454a;
+  margin:20px 5px 0;
+  cursor:pointer;
+  box-shadow: 0 10px 0 #d1483e;
+  float:left;
+  color:#ef454a;
+  transition:0.5s;
+}
+.card.return
+{
+  color:#ef454a;
+  line-height:60px;
+  text-align:center;
+  font-size:20px;
+  font-weight:bold;
+}
+.card:hover{
+  opacity:0.5;
+}
+.card.removed
+{
+  background:#fff;
+  transition:0.5s;
+}
